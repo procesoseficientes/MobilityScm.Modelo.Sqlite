@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+    <PackageId>MobilityScm.Modelo.Sqlite</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Modelo de SQL Lite</Description>
+    <Copyright></Copyright>
+    <Authors>Procesos Eficientes</Authors>
+    <PackageProjectUrl>https://github.com/procesoseficientes/MobilityScm.Modelo.Sqlite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/procesoseficientes/MobilityScm.Modelo.Sqlite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MobilityScm.Modelo.TipoYEstados" Version="1.0.3" />
+    <PackageReference Include="MobilityScm.Utilerias" Version="1.0.1" />
+    <PackageReference Include="MobilityScm.Vertical" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
